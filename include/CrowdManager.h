@@ -71,7 +71,10 @@ public:
       **/
     int getSize(void) { return mCrowdSize; }
 
-    int getNbAssignedAgents(void) { mAssignedCharacters.size(); }
+    int getNbAssignedAgents(void) {
+      int x = mAssignedCharacters.size();
+      return x;
+    }
 
     int getGridDimensions(void) { return mDimension; }
 

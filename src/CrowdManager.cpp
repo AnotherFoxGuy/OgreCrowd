@@ -394,7 +394,7 @@ void CrowdManager::unloadAgents(int tx, int ty)
     if(! tileExists(tx,ty))
         return;
 
-    u_int i = 0;
+    int i = 0;
     int agentsRemoved = 0;
     while(i < mAssignedCharacters.size()) {
         Character *character = mAssignedCharacters[i];
@@ -415,7 +415,7 @@ void CrowdManager::unloadAgents(int tx, int ty)
 
 void CrowdManager::unloadAgentsOutsideArea(NavmeshTileSet tileSet)
 {
-    u_int i = 0;
+    int i = 0;
     int agentsRemoved = 0;
     while(i < mAssignedCharacters.size()) {
         Character *character = mAssignedCharacters[i];

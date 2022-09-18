@@ -1,0 +1,13 @@
+[requires]
+ogre3d/1.11.6.1@anotherfoxguy/stable
+recastnavigation/cci.20200511
+ois/1.4@rigsofrods/custom
+
+[generators]
+cmake_multi
+
+[imports]
+bin, *.dll -> bin @ keep_path=False
+lib, *.dll -> bin @ keep_path=False
+lib, *.dylib -> bin @ keep_path=False
+lib, *.so* -> bin @ keep_path=False

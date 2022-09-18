@@ -26,9 +26,9 @@ This source file is part of the
 #include <OgreRenderWindow.h>
 #include <OgreConfigFile.h>
 
-#include <OISEvents.h>
-#include <OISKeyboard.h>
-#include <OISMouse.h>
+#include <ois/OISEvents.h>
+#include <ois/OISKeyboard.h>
+#include <ois/OISMouse.h>
 
 #include <OgreApplicationContext.h>
 #include <OgreTrays.h>
